@@ -8,7 +8,7 @@ function closeHelpModal() {
   helpModal.classList.remove("show-modal");
 }
 function restart() {
-  console.log("win", window.origin);
+  console.log("win", window.location.href);
 }
 // Main Game Play
 let cardElements = document.getElementsByClassName("game-card");
